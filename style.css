@@ -1,20 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 body{
     background-color:hsl(217, 54%, 11%);
 }
 .main-img{
-width: 300px;
+    width: 300px;
+    border-radius: 12px;
+
 }
 section{
     background-color: hsl(216, 50%, 16%);
-    width: 375px;
-
+    width: 320px;
+    padding: 20px 5px 20px 20px;
+    border-radius: 12px;
+    font-family: 'Outfit', sans-serif;
 }
 h1{
     color: hsl(0, 0%, 100%);
+    font-size: 18px;
 }
 p{
     color: hsl(215, 32%, 27%);
+    font-weight: 100;
+}
+.bloc{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    justify-content: space-around;
 }
 .item1{
-    color: hsl(178%, 100%, 50%);
+    display: flex;
+    color: hsl(178, 100%, 50%);
 }
+.item2{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+.creator{
+    width: 18px;
+   
+}
+
+.bloc img{
+    margin-right: 8px;
+}
+
