@@ -1,0 +1,11 @@
+body{
+    background-color:hsl(217, 54%, 11%);
+}
+.main-img{
+width: 300px;
+}
+section{
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    
+}
